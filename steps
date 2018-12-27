@@ -1,0 +1,2 @@
+docker build . --tag imdb-docker-image:v1
+dcoker run -d --name imdb-docker-container imdb-docker-image:v1
