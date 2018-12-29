@@ -1,5 +1,7 @@
 docker build . --tag imdb-docker-image:v1
 docker run -d --name imdb-docker-container imdb-docker-image:v1
 
+docker logs -f imdb-docker-container
+
 
 cleaning up stopped containers and images : docker system prune
