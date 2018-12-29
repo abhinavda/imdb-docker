@@ -1,7 +1,7 @@
-docker build . --tag imdb-docker-image:v1
-docker run -d --name imdb-docker-container imdb-docker-image:v1
+docker run -t -d --name imdb-docker-container abhinavpitt/imdb-docker-image:latest
+docker exec -it imdb-docker-container python /imdb-public/trial.py [youtube_developerkey] [imdb_userid]
 
-docker logs -f imdb-docker-container
-
-
-cleaning up stopped containers and images : docker system prune
+Clean up:
+Stopping container                        : docker stop imdb-docker-container
+Cleaning up stopped containers and images : docker system prune
+Stopping docker                           : service docker stop
