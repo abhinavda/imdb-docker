@@ -9,6 +9,12 @@ Docker instructions for running the app:
 docker run -t -d --name imdb-docker-container abhinavpitt/imdb-docker-image:latest  
 docker exec -it imdb-docker-container python /imdb-public/trial.py [youtube_developerkey] [imdb_userid]
 
+Clean up:  
+--------  
+Stopping container                        : docker stop imdb-docker-container
+Cleaning up stopped containers and images : docker system prune
+Stopping docker                           : service docker stop
+
 Requirements:  
 ------------  
 1. Docker 
