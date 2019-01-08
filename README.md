@@ -11,9 +11,9 @@ docker exec -it imdb-docker-container python /imdb-public/trial.py [youtube_deve
 
 Clean up:  
 --------  
-Stopping container                        : docker stop imdb-docker-container
-Cleaning up stopped containers and images : docker system prune
-Stopping docker                           : service docker stop
+Stopping container                        : docker stop imdb-docker-container  
+Cleaning up stopped containers and images : docker system prune  
+Stopping docker                           : service docker stop  
 
 Requirements:  
 ------------  
