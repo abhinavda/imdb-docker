@@ -1,4 +1,0 @@
-Clean up:
-Stopping container                        : docker stop imdb-docker-container
-Cleaning up stopped containers and images : docker system prune
-Stopping docker                           : service docker stop
