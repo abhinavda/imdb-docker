@@ -19,5 +19,5 @@ Requirements:
 ------------  
 1. Docker 
 2. Python  
-3. youtube developer api :  
-4. imdb user id: https://github.com/abhinavda/imdb-docker/blob/master/Instructions/getting_imdb_userid.md   
+3. Youtube developer api : https://developers.google.com/youtube/v3/getting-started   
+4. Imdb user id: https://github.com/abhinavda/imdb-docker/blob/master/Instructions/getting_imdb_userid.md   
