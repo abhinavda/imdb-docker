@@ -1,4 +1,4 @@
-# imdb-docker
+# imdb-docker project
 
 Introduction: 
 ------------  
@@ -11,6 +11,7 @@ docker exec -it imdb-docker-container python /imdb-public/trial.py [youtube_deve
 
 Requirements:  
 ------------  
-1. Docker  
-2. youtube developer api :  
-3. imdb user id:  
+1. Docker 
+2. Python  
+3. youtube developer api :  
+4. imdb user id:  
